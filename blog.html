@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website-Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="fontawsome/css/all.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="Images/certificate.jpg" />
+          <h2>Our Certificate & Online Programs For 2023</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quae
+            labore, id magnam alias qui!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quos
+            magni ut veniam ea neque placeat impedit reprehenderit. Distinctio
+            iure, voluptas vel fugit quo magnam sed architecto culpa pariatur
+            sunt.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quos
+            magni ut veniam ea neque placeat impedit reprehenderit. Distinctio
+            iure, voluptas vel fugit quo magnam sed architecto culpa pariatur
+            sunt.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            inventore facere reprehenderit ipsa fugiat. Explicabo!
+          </p>
+        
+          <div class="comment-box">
+            <h3>Leave a Comment</h3>
+            <form class="comment-form" >
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter E-mail">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+            </form>
+
+          </div>
+
+
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analutics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+        voluptate perspiciatis aperiam perferendis quasi modi recusandae ipsam
+        dicta,<br />
+        qui deserunt obcaecati, eligendi cupiditate sit quibusdam!
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+
+      <p>All Right's @ Eduford</p>
+    </section>
+
+    <!--Javascript For toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
